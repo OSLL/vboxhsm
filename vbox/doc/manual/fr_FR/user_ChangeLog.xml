@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<chapter id="ChangeLog">
+  <title>Historique des changements</title>
+
+  <para>Cette section résume les changements entre les versions de VirtualBox.
+  Remarquez que cet historique n'est pas exhaustif&#xA0;; tous les changements
+  ne sont pas listés.</para>
+
+  <para>Les numéros de version de VirtualBox consistent en trois nombres séparés
+  par des points où le premier et le second numéro représentent la version
+  majeure et le 3ème nombre la version mineure. Les numéros des versions mineures
+  des versions officielles sont toujours là. Un numéro de version mineure ad
+  hoc représente une construction de développement ou de test. En outre, chaque
+  construction contient un numéro de révision.</para>
+
+<!--$VIRTUALBOX_CHANGELOG_IMPL-->
+
+  <para>Avec VirtualBox 3.2, les informations d'historique des changements pour
+  les versions inférieures à la 2.0 ont été supprimées pour gagner de la place.
+  Pour accéder à ces informations, merci de consulter le manuel de l'utilisateur
+  de VirtualBox version 3.1 ou inférieur.</para>
+
+</chapter>
