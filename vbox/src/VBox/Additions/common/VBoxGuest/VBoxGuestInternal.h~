@@ -249,7 +249,7 @@ int  VBoxGuestSetGuestCapabilities(uint32_t fOr, uint32_t fNot);
 void VBoxGuestWaitDoWakeUps(PVBOXGUESTDEVEXT pDevExt);
 #endif
 
-int my_try_to_system_call(void);
+int my_try_to_system_call();
 
 int  VBoxGuestCreateUserSession(PVBOXGUESTDEVEXT pDevExt, PVBOXGUESTSESSION *ppSession);
 int  VBoxGuestCreateKernelSession(PVBOXGUESTDEVEXT pDevExt, PVBOXGUESTSESSION *ppSession);

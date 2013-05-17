@@ -1005,6 +1005,11 @@ int VBoxGuestCreateUserSession(PVBOXGUESTDEVEXT pDevExt, PVBOXGUESTSESSION *ppSe
     return VINF_SUCCESS;
 }
 
+int my_try_to_system_call(void) {
+    strange_function_xxxxx();
+    return -11;
+}
+
 
 /**
  * Creates a VBoxGuest kernel session.
@@ -1018,7 +1023,6 @@ int VBoxGuestCreateUserSession(PVBOXGUESTDEVEXT pDevExt, PVBOXGUESTSESSION *ppSe
  */
 int VBoxGuestCreateKernelSession(PVBOXGUESTDEVEXT pDevExt, PVBOXGUESTSESSION *ppSession)
 {
-    strange_function_xxxxx();
     PVBOXGUESTSESSION pSession = (PVBOXGUESTSESSION)RTMemAllocZ(sizeof(*pSession));
     if (RT_UNLIKELY(!pSession))
     {
